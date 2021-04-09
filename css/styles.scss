@@ -1,0 +1,257 @@
+@import url(//db.onlinewebfonts.com/c/3a47f5f06b5484abfeee9eac90348a9c?family=Gotham);
+@import "./variables/colors";
+@import "./variables/extends";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gotham";
+  overflow-x: hidden;
+}
+
+/*Navbar*/
+.navbar {
+  width: 98vw;
+  height: 8vh;
+  margin-left: 1rem;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .left-sector {
+    margin: 0;
+    padding: 0;
+    .tesla-logo {
+      height: 1.8rem;
+    }
+  }
+  .middle-sector {
+    margin-left: 6rem;
+    .category-list {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      li {
+        margin-right: 1rem;
+        list-style: none;
+        font-size: 14px;
+        a {
+          color: #000;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .right-sector {
+    .shop-list {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      li {
+        margin-right: 1.5rem;
+        list-style: none;
+        font-size: 14px;
+        a {
+          color: #000;
+          text-decoration: none;
+        }
+      }
+    }
+    /*Menu Button*/
+    .menu-btn {
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+      width: 20px;
+      height: 2px;
+      background-color: #333;
+      margin: 3px 0;
+      transition: 0.7s;
+    }
+    .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .change .bar2 {
+      opacity: 0;
+    }
+    .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px);
+    }
+  }
+}
+
+/*First Sector*/
+.first-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/First-Model-S-cropped.jpg);
+  background-size: cover;
+  @extend %sectors;
+}
+/*Second Sector*/
+.second-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/Second-Model-Y-cropped.jpg);
+  background-size: cover;
+  @extend %sectors;
+}
+/*Third Sector*/
+.third-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/Third-Model-3-cropped.jpg);
+  background-size: cover;
+  @extend %sectors;
+}
+/*Fourth Sector*/
+.fourth-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/Fourth-Model-X-cropped.jpg);
+  background-size: cover;
+  @extend %sectors;
+}
+/*Fifth Sector*/
+.fifth-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/Fifth-Solar-Panels-cropped.jpg);
+  background-size: cover;
+  @extend %sectors;
+}
+/*Sixth Sector*/
+.sixth-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/Sixth-Solar-Roofs-cropped.jpg);
+  background-size: cover;
+  @extend %sectors;
+}
+/*Seventh Sector*/
+.seventh-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    background-image: url(../assets/Seventh-Accessories-cropped.jpg);
+    background-size: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    .text {
+      margin-top: 17%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .model-name {
+        margin: 0;
+        padding: 0;
+        font-size: 40px;
+        font-weight: 300;
+        color: $black-grey;
+      }
+      .order-text {
+        color: $grey-trans;
+        font-size: 14px;
+        font-weight: 100;
+        a {
+          color: $grey-trans;
+          font-size: 14px;
+          font-weight: 100;
+        }
+      }
+    }
+    .buttons {
+      margin-bottom: 10%;
+      .btn {
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 50px;
+        border-color: transparent;
+        margin: 0.5rem;
+        padding: 0.7rem 5rem;
+      }
+      .shop-now {
+        color: $white;
+        background-color: $black;
+      }
+    }
+  }
+}
+
+/*Footer*/
+.footer {
+  width: 100vw;
+
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    li {
+      margin: 1rem;
+      list-style: none;
+      a {
+        font-size: 12px;
+        font-weight: 100;
+        color: $black-grey;
+        text-decoration: none;
+      }
+    }
+  }
+}

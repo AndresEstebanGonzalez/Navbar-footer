@@ -1,0 +1,440 @@
+@import url(//db.onlinewebfonts.com/c/3a47f5f06b5484abfeee9eac90348a9c?family=Gotham);
+.first-sector .container, .second-sector .container, .third-sector .container, .fourth-sector .container, .fifth-sector .container, .sixth-sector .container {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.first-sector .container .text, .second-sector .container .text, .third-sector .container .text, .fourth-sector .container .text, .fifth-sector .container .text, .sixth-sector .container .text {
+  margin-top: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-sector .container .text .model-name, .second-sector .container .text .model-name, .third-sector .container .text .model-name, .fourth-sector .container .text .model-name, .fifth-sector .container .text .model-name, .sixth-sector .container .text .model-name {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 300;
+  color: #393c41;
+}
+
+.first-sector .container .text .order-text, .second-sector .container .text .order-text, .third-sector .container .text .order-text, .fourth-sector .container .text .order-text, .fifth-sector .container .text .order-text, .sixth-sector .container .text .order-text {
+  color: #5c5e62;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.first-sector .container .text .order-text a, .second-sector .container .text .order-text a, .third-sector .container .text .order-text a, .fourth-sector .container .text .order-text a, .fifth-sector .container .text .order-text a, .sixth-sector .container .text .order-text a {
+  color: #5c5e62;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.first-sector .container .buttons, .second-sector .container .buttons, .third-sector .container .buttons, .fourth-sector .container .buttons, .fifth-sector .container .buttons, .sixth-sector .container .buttons {
+  margin-bottom: 10%;
+}
+
+.first-sector .container .buttons .btn, .second-sector .container .buttons .btn, .third-sector .container .buttons .btn, .fourth-sector .container .buttons .btn, .fifth-sector .container .buttons .btn, .sixth-sector .container .buttons .btn {
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 50px;
+  border-color: transparent;
+  margin: 0.5rem;
+  padding: 0.7rem 5rem;
+}
+
+.first-sector .container .buttons .btn-dark, .second-sector .container .buttons .btn-dark, .third-sector .container .buttons .btn-dark, .fourth-sector .container .buttons .btn-dark, .fifth-sector .container .buttons .btn-dark, .sixth-sector .container .buttons .btn-dark {
+  color: #fff;
+  background-color: #171a20cc;
+}
+
+.first-sector .container .buttons .btn-white, .second-sector .container .buttons .btn-white, .third-sector .container .buttons .btn-white, .fourth-sector .container .buttons .btn-white, .fifth-sector .container .buttons .btn-white, .sixth-sector .container .buttons .btn-white {
+  color: #5c5e62;
+  background-color: #ffffffa6;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Gotham";
+  overflow-x: hidden;
+}
+
+/*Navbar*/
+.navbar {
+  width: 98vw;
+  height: 8vh;
+  margin-left: 1rem;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .left-sector {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .left-sector .tesla-logo {
+  height: 1.8rem;
+}
+
+.navbar .middle-sector {
+  margin-left: 6rem;
+}
+
+.navbar .middle-sector .category-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navbar .middle-sector .category-list li {
+  margin-right: 1rem;
+  list-style: none;
+  font-size: 14px;
+}
+
+.navbar .middle-sector .category-list li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar .right-sector {
+  /*Menu Button*/
+}
+
+.navbar .right-sector .shop-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .right-sector .shop-list li {
+  margin-right: 1.5rem;
+  list-style: none;
+  font-size: 14px;
+}
+
+.navbar .right-sector .shop-list li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar .right-sector .menu-btn {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.navbar .right-sector .bar1,
+.navbar .right-sector .bar2,
+.navbar .right-sector .bar3 {
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  margin: 3px 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.navbar .right-sector .change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.navbar .right-sector .change .bar2 {
+  opacity: 0;
+}
+
+.navbar .right-sector .change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/*First Sector*/
+.first-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../assets/First-Model-S-cropped.jpg);
+  background-size: cover;
+}
+
+/*Second Sector*/
+.second-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../assets/Second-Model-Y-cropped.jpg);
+  background-size: cover;
+}
+
+/*Third Sector*/
+.third-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../assets/Third-Model-3-cropped.jpg);
+  background-size: cover;
+}
+
+/*Fourth Sector*/
+.fourth-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../assets/Fourth-Model-X-cropped.jpg);
+  background-size: cover;
+}
+
+/*Fifth Sector*/
+.fifth-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../assets/Fifth-Solar-Panels-cropped.jpg);
+  background-size: cover;
+}
+
+/*Sixth Sector*/
+.sixth-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../assets/Sixth-Solar-Roofs-cropped.jpg);
+  background-size: cover;
+}
+
+/*Seventh Sector*/
+.seventh-sector {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seventh-sector .container {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  background-image: url(../assets/Seventh-Accessories-cropped.jpg);
+  background-size: 45vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.seventh-sector .container .text {
+  margin-top: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seventh-sector .container .text .model-name {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 300;
+  color: #393c41;
+}
+
+.seventh-sector .container .text .order-text {
+  color: #5c5e62;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.seventh-sector .container .text .order-text a {
+  color: #5c5e62;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.seventh-sector .container .buttons {
+  margin-bottom: 10%;
+}
+
+.seventh-sector .container .buttons .btn {
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 50px;
+  border-color: transparent;
+  margin: 0.5rem;
+  padding: 0.7rem 5rem;
+}
+
+.seventh-sector .container .buttons .shop-now {
+  color: #fff;
+  background-color: #171a20;
+}
+
+/*Footer*/
+.footer {
+  width: 100vw;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .footer-list li {
+  margin: 1rem;
+  list-style: none;
+}
+
+.footer .footer-list li a {
+  font-size: 12px;
+  font-weight: 100;
+  color: #393c41;
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */

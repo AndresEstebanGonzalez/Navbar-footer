@@ -1,0 +1,52 @@
+%sectors {
+  .container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    .text {
+      margin-top: 17%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .model-name {
+        margin: 0;
+        padding: 0;
+        font-size: 40px;
+        font-weight: 300;
+        color: $black-grey;
+      }
+      .order-text {
+        color: $grey-trans;
+        font-size: 14px;
+        font-weight: 100;
+        a {
+          color: $grey-trans;
+          font-size: 14px;
+          font-weight: 100;
+        }
+      }
+    }
+    .buttons {
+      margin-bottom: 10%;
+      .btn {
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 50px;
+        border-color: transparent;
+        margin: 0.5rem;
+        padding: 0.7rem 5rem;
+      }
+      .btn-dark {
+        color: $white;
+        background-color: $black-trans;
+      }
+      .btn-white {
+        color: $grey-trans;
+        background-color: $white-trans;
+      }
+    }
+  }
+}
